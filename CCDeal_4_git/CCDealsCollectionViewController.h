@@ -1,5 +1,5 @@
 //
-//  AppDelegate.h
+//  CCDealsCollectionViewController.h
 //  CCDeal_4
 //
 //  Created by April on 6/30/15.
@@ -8,10 +8,7 @@
 
 #import <UIKit/UIKit.h>
 
-@interface AppDelegate : UIResponder <UIApplicationDelegate>
 
-@property (strong, nonatomic) UIWindow *window;
-
+@interface CCDealsCollectionViewController : UICollectionViewController
 
 @end
-

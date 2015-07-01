@@ -1,12 +1,14 @@
 //
 //  ViewController.h
-//  CCDeal_4_git
+//  CCDeals
 //
-//  Created by April on 7/1/15.
+//  Created by April on 6/25/15.
 //  Copyright (c) 2015 gunzi. All rights reserved.
 //
 
 #import <UIKit/UIKit.h>
+
+
 
 @interface ViewController : UIViewController
 

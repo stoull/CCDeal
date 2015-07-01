@@ -7,6 +7,31 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		6797922C1B4391AC00BF80FD /* DPAPI.m in Sources */ = {isa = PBXBuildFile; fileRef = 679792281B4391AC00BF80FD /* DPAPI.m */; };
+		6797922D1B4391AC00BF80FD /* DPRequest.m in Sources */ = {isa = PBXBuildFile; fileRef = 6797922B1B4391AC00BF80FD /* DPRequest.m */; };
+		679792391B43923C00BF80FD /* CCDealCollectionViewCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 679792351B43923C00BF80FD /* CCDealCollectionViewCell.m */; };
+		6797923A1B43923C00BF80FD /* CCLeftBarButtonItemView.m in Sources */ = {isa = PBXBuildFile; fileRef = 679792371B43923C00BF80FD /* CCLeftBarButtonItemView.m */; };
+		6797923B1B43923C00BF80FD /* CCLeftBarButtonItemView.xib in Resources */ = {isa = PBXBuildFile; fileRef = 679792381B43923C00BF80FD /* CCLeftBarButtonItemView.xib */; };
+		6797923E1B43924C00BF80FD /* CCMetaDataTool.m in Sources */ = {isa = PBXBuildFile; fileRef = 6797923D1B43924C00BF80FD /* CCMetaDataTool.m */; };
+		679792421B43927500BF80FD /* cities.plist in Resources */ = {isa = PBXBuildFile; fileRef = 6797923F1B43927500BF80FD /* cities.plist */; };
+		679792431B43927500BF80FD /* cityGroups.plist in Resources */ = {isa = PBXBuildFile; fileRef = 679792401B43927500BF80FD /* cityGroups.plist */; };
+		679792441B43927500BF80FD /* sorts.plist in Resources */ = {isa = PBXBuildFile; fileRef = 679792411B43927500BF80FD /* sorts.plist */; };
+		679792461B43928E00BF80FD /* categories.plist in Resources */ = {isa = PBXBuildFile; fileRef = 679792451B43928E00BF80FD /* categories.plist */; };
+		679792541B4392B700BF80FD /* CCCategory.m in Sources */ = {isa = PBXBuildFile; fileRef = 679792481B4392B700BF80FD /* CCCategory.m */; };
+		679792551B4392B700BF80FD /* CCCity.m in Sources */ = {isa = PBXBuildFile; fileRef = 6797924A1B4392B700BF80FD /* CCCity.m */; };
+		679792561B4392B700BF80FD /* CCCityGroup.m in Sources */ = {isa = PBXBuildFile; fileRef = 6797924C1B4392B700BF80FD /* CCCityGroup.m */; };
+		679792571B4392B700BF80FD /* CCDeal.m in Sources */ = {isa = PBXBuildFile; fileRef = 6797924E1B4392B700BF80FD /* CCDeal.m */; };
+		679792581B4392B700BF80FD /* CCDealManager.m in Sources */ = {isa = PBXBuildFile; fileRef = 679792501B4392B700BF80FD /* CCDealManager.m */; };
+		679792591B4392B700BF80FD /* CCSort.m in Sources */ = {isa = PBXBuildFile; fileRef = 679792521B4392B700BF80FD /* CCSort.m */; };
+		6797925C1B4392E800BF80FD /* UIBarButtonItem+Extension.m in Sources */ = {isa = PBXBuildFile; fileRef = 6797925B1B4392E800BF80FD /* UIBarButtonItem+Extension.m */; };
+		6797926C1B43931300BF80FD /* CCCityMenuCollectionViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 6797925E1B43931300BF80FD /* CCCityMenuCollectionViewController.m */; };
+		6797926D1B43931300BF80FD /* CCCityMenuCollectionViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 6797925F1B43931300BF80FD /* CCCityMenuCollectionViewController.xib */; };
+		6797926E1B43931300BF80FD /* CCCollectionIndexView.m in Sources */ = {isa = PBXBuildFile; fileRef = 679792611B43931300BF80FD /* CCCollectionIndexView.m */; };
+		6797926F1B43931300BF80FD /* CCDealsCollectionViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 679792631B43931300BF80FD /* CCDealsCollectionViewController.m */; };
+		679792701B43931300BF80FD /* CCLocateViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 679792651B43931300BF80FD /* CCLocateViewController.m */; };
+		679792711B43931300BF80FD /* CCMainNavController.m in Sources */ = {isa = PBXBuildFile; fileRef = 679792671B43931300BF80FD /* CCMainNavController.m */; };
+		679792721B43931300BF80FD /* CCMenuViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 679792691B43931300BF80FD /* CCMenuViewController.m */; };
+		679792731B43931300BF80FD /* CCSortViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 6797926B1B43931300BF80FD /* CCSortViewController.m */; };
 		67BB47CE1B4390A7004373F2 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 67BB47CD1B4390A7004373F2 /* main.m */; };
 		67BB47D11B4390A7004373F2 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 67BB47D01B4390A7004373F2 /* AppDelegate.m */; };
 		67BB47D41B4390A7004373F2 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 67BB47D31B4390A7004373F2 /* ViewController.m */; };
@@ -27,6 +52,52 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		679792271B4391AC00BF80FD /* DPAPI.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DPAPI.h; sourceTree = "<group>"; };
+		679792281B4391AC00BF80FD /* DPAPI.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = DPAPI.m; sourceTree = "<group>"; };
+		679792291B4391AC00BF80FD /* DPConstants.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DPConstants.h; sourceTree = "<group>"; };
+		6797922A1B4391AC00BF80FD /* DPRequest.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DPRequest.h; sourceTree = "<group>"; };
+		6797922B1B4391AC00BF80FD /* DPRequest.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = DPRequest.m; sourceTree = "<group>"; };
+		679792341B43923C00BF80FD /* CCDealCollectionViewCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CCDealCollectionViewCell.h; sourceTree = "<group>"; };
+		679792351B43923C00BF80FD /* CCDealCollectionViewCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CCDealCollectionViewCell.m; sourceTree = "<group>"; };
+		679792361B43923C00BF80FD /* CCLeftBarButtonItemView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CCLeftBarButtonItemView.h; sourceTree = "<group>"; };
+		679792371B43923C00BF80FD /* CCLeftBarButtonItemView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CCLeftBarButtonItemView.m; sourceTree = "<group>"; };
+		679792381B43923C00BF80FD /* CCLeftBarButtonItemView.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = CCLeftBarButtonItemView.xib; sourceTree = "<group>"; };
+		6797923C1B43924C00BF80FD /* CCMetaDataTool.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CCMetaDataTool.h; sourceTree = "<group>"; };
+		6797923D1B43924C00BF80FD /* CCMetaDataTool.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CCMetaDataTool.m; sourceTree = "<group>"; };
+		6797923F1B43927500BF80FD /* cities.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = cities.plist; sourceTree = "<group>"; };
+		679792401B43927500BF80FD /* cityGroups.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = cityGroups.plist; sourceTree = "<group>"; };
+		679792411B43927500BF80FD /* sorts.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = sorts.plist; sourceTree = "<group>"; };
+		679792451B43928E00BF80FD /* categories.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = categories.plist; sourceTree = "<group>"; };
+		679792471B4392B700BF80FD /* CCCategory.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CCCategory.h; sourceTree = "<group>"; };
+		679792481B4392B700BF80FD /* CCCategory.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CCCategory.m; sourceTree = "<group>"; };
+		679792491B4392B700BF80FD /* CCCity.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CCCity.h; sourceTree = "<group>"; };
+		6797924A1B4392B700BF80FD /* CCCity.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CCCity.m; sourceTree = "<group>"; };
+		6797924B1B4392B700BF80FD /* CCCityGroup.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CCCityGroup.h; sourceTree = "<group>"; };
+		6797924C1B4392B700BF80FD /* CCCityGroup.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CCCityGroup.m; sourceTree = "<group>"; };
+		6797924D1B4392B700BF80FD /* CCDeal.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CCDeal.h; sourceTree = "<group>"; };
+		6797924E1B4392B700BF80FD /* CCDeal.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CCDeal.m; sourceTree = "<group>"; };
+		6797924F1B4392B700BF80FD /* CCDealManager.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CCDealManager.h; sourceTree = "<group>"; };
+		679792501B4392B700BF80FD /* CCDealManager.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CCDealManager.m; sourceTree = "<group>"; };
+		679792511B4392B700BF80FD /* CCSort.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CCSort.h; sourceTree = "<group>"; };
+		679792521B4392B700BF80FD /* CCSort.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CCSort.m; sourceTree = "<group>"; };
+		679792531B4392B700BF80FD /* CCSSingleton.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CCSSingleton.h; sourceTree = "<group>"; };
+		6797925A1B4392E800BF80FD /* UIBarButtonItem+Extension.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIBarButtonItem+Extension.h"; sourceTree = "<group>"; };
+		6797925B1B4392E800BF80FD /* UIBarButtonItem+Extension.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIBarButtonItem+Extension.m"; sourceTree = "<group>"; };
+		6797925D1B43931300BF80FD /* CCCityMenuCollectionViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CCCityMenuCollectionViewController.h; sourceTree = "<group>"; };
+		6797925E1B43931300BF80FD /* CCCityMenuCollectionViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CCCityMenuCollectionViewController.m; sourceTree = "<group>"; };
+		6797925F1B43931300BF80FD /* CCCityMenuCollectionViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = CCCityMenuCollectionViewController.xib; sourceTree = "<group>"; };
+		679792601B43931300BF80FD /* CCCollectionIndexView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CCCollectionIndexView.h; sourceTree = "<group>"; };
+		679792611B43931300BF80FD /* CCCollectionIndexView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CCCollectionIndexView.m; sourceTree = "<group>"; };
+		679792621B43931300BF80FD /* CCDealsCollectionViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CCDealsCollectionViewController.h; sourceTree = "<group>"; };
+		679792631B43931300BF80FD /* CCDealsCollectionViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CCDealsCollectionViewController.m; sourceTree = "<group>"; };
+		679792641B43931300BF80FD /* CCLocateViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CCLocateViewController.h; sourceTree = "<group>"; };
+		679792651B43931300BF80FD /* CCLocateViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CCLocateViewController.m; sourceTree = "<group>"; };
+		679792661B43931300BF80FD /* CCMainNavController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CCMainNavController.h; sourceTree = "<group>"; };
+		679792671B43931300BF80FD /* CCMainNavController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CCMainNavController.m; sourceTree = "<group>"; };
+		679792681B43931300BF80FD /* CCMenuViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CCMenuViewController.h; sourceTree = "<group>"; };
+		679792691B43931300BF80FD /* CCMenuViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CCMenuViewController.m; sourceTree = "<group>"; };
+		6797926A1B43931300BF80FD /* CCSortViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CCSortViewController.h; sourceTree = "<group>"; };
+		6797926B1B43931300BF80FD /* CCSortViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CCSortViewController.m; sourceTree = "<group>"; };
 		67BB47C81B4390A7004373F2 /* CCDeal_4_git.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = CCDeal_4_git.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		67BB47CC1B4390A7004373F2 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		67BB47CD1B4390A7004373F2 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
@@ -60,6 +131,101 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		679792261B4391AC00BF80FD /* DPSDK */ = {
+			isa = PBXGroup;
+			children = (
+				679792271B4391AC00BF80FD /* DPAPI.h */,
+				679792281B4391AC00BF80FD /* DPAPI.m */,
+				679792291B4391AC00BF80FD /* DPConstants.h */,
+				6797922A1B4391AC00BF80FD /* DPRequest.h */,
+				6797922B1B4391AC00BF80FD /* DPRequest.m */,
+			);
+			path = DPSDK;
+			sourceTree = "<group>";
+		};
+		6797922E1B4391D700BF80FD /* View */ = {
+			isa = PBXGroup;
+			children = (
+				679792341B43923C00BF80FD /* CCDealCollectionViewCell.h */,
+				679792351B43923C00BF80FD /* CCDealCollectionViewCell.m */,
+				679792361B43923C00BF80FD /* CCLeftBarButtonItemView.h */,
+				679792371B43923C00BF80FD /* CCLeftBarButtonItemView.m */,
+				679792381B43923C00BF80FD /* CCLeftBarButtonItemView.xib */,
+			);
+			name = View;
+			sourceTree = "<group>";
+		};
+		6797922F1B4391E900BF80FD /* Tool */ = {
+			isa = PBXGroup;
+			children = (
+				6797923C1B43924C00BF80FD /* CCMetaDataTool.h */,
+				6797923D1B43924C00BF80FD /* CCMetaDataTool.m */,
+			);
+			name = Tool;
+			sourceTree = "<group>";
+		};
+		679792301B4391EF00BF80FD /* Plist */ = {
+			isa = PBXGroup;
+			children = (
+				679792451B43928E00BF80FD /* categories.plist */,
+				6797923F1B43927500BF80FD /* cities.plist */,
+				679792401B43927500BF80FD /* cityGroups.plist */,
+				679792411B43927500BF80FD /* sorts.plist */,
+			);
+			name = Plist;
+			sourceTree = "<group>";
+		};
+		679792311B4391FA00BF80FD /* CCMode */ = {
+			isa = PBXGroup;
+			children = (
+				6797924D1B4392B700BF80FD /* CCDeal.h */,
+				6797924E1B4392B700BF80FD /* CCDeal.m */,
+				6797924F1B4392B700BF80FD /* CCDealManager.h */,
+				679792501B4392B700BF80FD /* CCDealManager.m */,
+				679792531B4392B700BF80FD /* CCSSingleton.h */,
+				679792491B4392B700BF80FD /* CCCity.h */,
+				6797924A1B4392B700BF80FD /* CCCity.m */,
+				679792471B4392B700BF80FD /* CCCategory.h */,
+				679792481B4392B700BF80FD /* CCCategory.m */,
+				679792511B4392B700BF80FD /* CCSort.h */,
+				679792521B4392B700BF80FD /* CCSort.m */,
+				6797924B1B4392B700BF80FD /* CCCityGroup.h */,
+				6797924C1B4392B700BF80FD /* CCCityGroup.m */,
+			);
+			name = CCMode;
+			sourceTree = "<group>";
+		};
+		679792321B43920100BF80FD /* Lib */ = {
+			isa = PBXGroup;
+			children = (
+				6797925A1B4392E800BF80FD /* UIBarButtonItem+Extension.h */,
+				6797925B1B4392E800BF80FD /* UIBarButtonItem+Extension.m */,
+			);
+			name = Lib;
+			sourceTree = "<group>";
+		};
+		679792331B43920B00BF80FD /* Controller */ = {
+			isa = PBXGroup;
+			children = (
+				6797925D1B43931300BF80FD /* CCCityMenuCollectionViewController.h */,
+				6797925E1B43931300BF80FD /* CCCityMenuCollectionViewController.m */,
+				6797925F1B43931300BF80FD /* CCCityMenuCollectionViewController.xib */,
+				679792601B43931300BF80FD /* CCCollectionIndexView.h */,
+				679792611B43931300BF80FD /* CCCollectionIndexView.m */,
+				679792621B43931300BF80FD /* CCDealsCollectionViewController.h */,
+				679792631B43931300BF80FD /* CCDealsCollectionViewController.m */,
+				679792641B43931300BF80FD /* CCLocateViewController.h */,
+				679792651B43931300BF80FD /* CCLocateViewController.m */,
+				679792661B43931300BF80FD /* CCMainNavController.h */,
+				679792671B43931300BF80FD /* CCMainNavController.m */,
+				679792681B43931300BF80FD /* CCMenuViewController.h */,
+				679792691B43931300BF80FD /* CCMenuViewController.m */,
+				6797926A1B43931300BF80FD /* CCSortViewController.h */,
+				6797926B1B43931300BF80FD /* CCSortViewController.m */,
+			);
+			name = Controller;
+			sourceTree = "<group>";
+		};
 		67BB47BF1B4390A7004373F2 = {
 			isa = PBXGroup;
 			children = (
@@ -85,6 +251,13 @@
 				67BB47D01B4390A7004373F2 /* AppDelegate.m */,
 				67BB47D21B4390A7004373F2 /* ViewController.h */,
 				67BB47D31B4390A7004373F2 /* ViewController.m */,
+				679792331B43920B00BF80FD /* Controller */,
+				679792321B43920100BF80FD /* Lib */,
+				679792311B4391FA00BF80FD /* CCMode */,
+				679792301B4391EF00BF80FD /* Plist */,
+				6797922F1B4391E900BF80FD /* Tool */,
+				6797922E1B4391D700BF80FD /* View */,
+				679792261B4391AC00BF80FD /* DPSDK */,
 				67BB47D51B4390A7004373F2 /* Main.storyboard */,
 				67BB47D81B4390A7004373F2 /* Images.xcassets */,
 				67BB47DA1B4390A7004373F2 /* LaunchScreen.xib */,
@@ -199,9 +372,15 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				679792461B43928E00BF80FD /* categories.plist in Resources */,
+				6797923B1B43923C00BF80FD /* CCLeftBarButtonItemView.xib in Resources */,
 				67BB47D71B4390A7004373F2 /* Main.storyboard in Resources */,
+				679792441B43927500BF80FD /* sorts.plist in Resources */,
 				67BB47DC1B4390A7004373F2 /* LaunchScreen.xib in Resources */,
+				679792421B43927500BF80FD /* cities.plist in Resources */,
 				67BB47D91B4390A7004373F2 /* Images.xcassets in Resources */,
+				6797926D1B43931300BF80FD /* CCCityMenuCollectionViewController.xib in Resources */,
+				679792431B43927500BF80FD /* cityGroups.plist in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -219,8 +398,27 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				679792551B4392B700BF80FD /* CCCity.m in Sources */,
+				679792591B4392B700BF80FD /* CCSort.m in Sources */,
+				6797923E1B43924C00BF80FD /* CCMetaDataTool.m in Sources */,
+				679792701B43931300BF80FD /* CCLocateViewController.m in Sources */,
+				6797922D1B4391AC00BF80FD /* DPRequest.m in Sources */,
+				679792571B4392B700BF80FD /* CCDeal.m in Sources */,
+				6797926E1B43931300BF80FD /* CCCollectionIndexView.m in Sources */,
+				6797923A1B43923C00BF80FD /* CCLeftBarButtonItemView.m in Sources */,
+				6797922C1B4391AC00BF80FD /* DPAPI.m in Sources */,
+				679792541B4392B700BF80FD /* CCCategory.m in Sources */,
+				679792391B43923C00BF80FD /* CCDealCollectionViewCell.m in Sources */,
+				6797925C1B4392E800BF80FD /* UIBarButtonItem+Extension.m in Sources */,
+				679792711B43931300BF80FD /* CCMainNavController.m in Sources */,
+				679792581B4392B700BF80FD /* CCDealManager.m in Sources */,
+				6797926F1B43931300BF80FD /* CCDealsCollectionViewController.m in Sources */,
+				679792561B4392B700BF80FD /* CCCityGroup.m in Sources */,
+				679792731B43931300BF80FD /* CCSortViewController.m in Sources */,
 				67BB47D41B4390A7004373F2 /* ViewController.m in Sources */,
 				67BB47D11B4390A7004373F2 /* AppDelegate.m in Sources */,
+				679792721B43931300BF80FD /* CCMenuViewController.m in Sources */,
+				6797926C1B43931300BF80FD /* CCCityMenuCollectionViewController.m in Sources */,
 				67BB47CE1B4390A7004373F2 /* main.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -346,6 +544,7 @@
 				INFOPLIST_FILE = CCDeal_4_git/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = 2;
 			};
 			name = Debug;
 		};
@@ -356,6 +555,7 @@
 				INFOPLIST_FILE = CCDeal_4_git/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = 2;
 			};
 			name = Release;
 		};
@@ -412,6 +612,7 @@
 				67BB47ED1B4390A7004373F2 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		67BB47EE1B4390A7004373F2 /* Build configuration list for PBXNativeTarget "CCDeal_4_gitTests" */ = {
 			isa = XCConfigurationList;
@@ -420,6 +621,7 @@
 				67BB47F01B4390A7004373F2 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};

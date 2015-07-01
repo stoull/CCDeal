@@ -1,13 +1,14 @@
 <?xml version="1.0" encoding="UTF-8" standalone="no"?>
-<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="6211" systemVersion="14A298i" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" initialViewController="vXZ-lx-hvc">
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="6250" systemVersion="13F1077" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" initialViewController="Pb1-t4-W5j">
     <dependencies>
-        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="6204"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="6244"/>
+        <capability name="Constraints to layout margins" minToolsVersion="6.0"/>
     </dependencies>
     <scenes>
         <!--View Controller-->
         <scene sceneID="ufC-wZ-h7g">
             <objects>
-                <viewController id="vXZ-lx-hvc" customClass="ViewController" customModuleProvider="" sceneMemberID="viewController">
+                <viewController id="vXZ-lx-hvc" customClass="ViewController" sceneMemberID="viewController">
                     <layoutGuides>
                         <viewControllerLayoutGuide type="top" id="jyV-Pf-zRb"/>
                         <viewControllerLayoutGuide type="bottom" id="2fi-mo-0CV"/>
@@ -17,9 +18,149 @@
                         <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                         <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="calibratedWhite"/>
                     </view>
+                    <navigationItem key="navigationItem" id="2zW-TV-kIa">
+                        <barButtonItem key="rightBarButtonItem" title="美食" id="L3Y-9c-YXU">
+                            <connections>
+                                <segue destination="7ab-xm-ALl" kind="push" id="PqU-YG-W8M"/>
+                            </connections>
+                        </barButtonItem>
+                    </navigationItem>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="x5A-6p-PRh" sceneMemberID="firstResponder"/>
             </objects>
+            <point key="canvasLocation" x="938" y="-557"/>
+        </scene>
+        <!--Deals Collection View Controller-->
+        <scene sceneID="xuQ-k7-q76">
+            <objects>
+                <collectionViewController id="7ab-xm-ALl" customClass="CCDealsCollectionViewController" sceneMemberID="viewController">
+                    <collectionView key="view" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" dataMode="prototypes" id="9yi-Bx-fq6">
+                        <rect key="frame" x="0.0" y="0.0" width="600" height="600"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                        <collectionViewFlowLayout key="collectionViewLayout" minimumLineSpacing="10" minimumInteritemSpacing="20" id="gxf-4n-3zK">
+                            <size key="itemSize" width="315" height="315"/>
+                            <size key="headerReferenceSize" width="0.0" height="0.0"/>
+                            <size key="footerReferenceSize" width="0.0" height="0.0"/>
+                            <inset key="sectionInset" minX="20" minY="20" maxX="20" maxY="20"/>
+                        </collectionViewFlowLayout>
+                        <cells>
+                            <collectionViewCell opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" reuseIdentifier="dealCell" id="fPO-ZF-vaq" customClass="CCDealCollectionViewCell">
+                                <rect key="frame" x="0.0" y="0.0" width="50" height="50"/>
+                                <autoresizingMask key="autoresizingMask"/>
+                                <view key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center">
+                                    <rect key="frame" x="0.0" y="0.0" width="315" height="315"/>
+                                    <autoresizingMask key="autoresizingMask"/>
+                                    <subviews>
+                                        <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" misplaced="YES" translatesAutoresizingMaskIntoConstraints="NO" id="j7v-Wv-swF">
+                                            <rect key="frame" x="8" y="8" width="289" height="193"/>
+                                            <constraints>
+                                                <constraint firstAttribute="height" constant="193" id="4On-Ax-1Qb"/>
+                                            </constraints>
+                                        </imageView>
+                                        <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" misplaced="YES" text="蒙自源过桥米线" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="nqU-gN-4Tf">
+                                            <rect key="frame" x="8" y="201" width="289" height="21"/>
+                                            <constraints>
+                                                <constraint firstAttribute="height" constant="21" id="p8S-Gv-gvY"/>
+                                            </constraints>
+                                            <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                                            <color key="textColor" cocoaTouchSystemColor="darkTextColor"/>
+                                            <nil key="highlightedColor"/>
+                                        </label>
+                                        <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" misplaced="YES" text="蒙自源过桥米线 仅售36元，价值54元肥牛过桥饭+状元过桥米线！11:00 20:00可用！" lineBreakMode="tailTruncation" numberOfLines="4" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="xhA-5l-W4l">
+                                            <rect key="frame" x="8" y="222" width="309" height="54"/>
+                                            <constraints>
+                                                <constraint firstAttribute="height" constant="54" id="w4E-9m-iSg"/>
+                                            </constraints>
+                                            <fontDescription key="fontDescription" type="system" pointSize="11"/>
+                                            <color key="textColor" cocoaTouchSystemColor="darkTextColor"/>
+                                            <nil key="highlightedColor"/>
+                                        </label>
+                                        <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="¥38" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="MAm-Ts-tCN">
+                                            <rect key="frame" x="8" y="276" width="60" height="29"/>
+                                            <constraints>
+                                                <constraint firstAttribute="height" constant="29" id="IW3-ny-vfm"/>
+                                                <constraint firstAttribute="width" constant="60" id="IXP-6I-WmQ"/>
+                                            </constraints>
+                                            <fontDescription key="fontDescription" type="system" pointSize="19"/>
+                                            <color key="textColor" red="1" green="0.0" blue="0.0" alpha="1" colorSpace="calibratedRGB"/>
+                                            <nil key="highlightedColor"/>
+                                        </label>
+                                        <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="¥56" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="SP0-xp-Y9N">
+                                            <rect key="frame" x="68" y="287" width="21" height="15"/>
+                                            <fontDescription key="fontDescription" type="system" pointSize="12"/>
+                                            <color key="textColor" cocoaTouchSystemColor="darkTextColor"/>
+                                            <nil key="highlightedColor"/>
+                                        </label>
+                                        <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" misplaced="YES" text="已售1000" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="VPf-jj-iWl">
+                                            <rect key="frame" x="177" y="284" width="120" height="21"/>
+                                            <constraints>
+                                                <constraint firstAttribute="height" constant="21" id="Nhe-2b-Bt3"/>
+                                                <constraint firstAttribute="width" constant="120" id="n2r-jv-D2Q"/>
+                                            </constraints>
+                                            <fontDescription key="fontDescription" type="system" pointSize="12"/>
+                                            <color key="textColor" cocoaTouchSystemColor="darkTextColor"/>
+                                            <nil key="highlightedColor"/>
+                                        </label>
+                                    </subviews>
+                                    <color key="backgroundColor" white="0.0" alpha="0.0" colorSpace="calibratedWhite"/>
+                                </view>
+                                <constraints>
+                                    <constraint firstItem="MAm-Ts-tCN" firstAttribute="leading" secondItem="fPO-ZF-vaq" secondAttribute="leadingMargin" id="Cmu-gc-Rpz"/>
+                                    <constraint firstItem="xhA-5l-W4l" firstAttribute="top" secondItem="nqU-gN-4Tf" secondAttribute="bottom" id="DMW-8e-Rgf"/>
+                                    <constraint firstItem="SP0-xp-Y9N" firstAttribute="top" secondItem="xhA-5l-W4l" secondAttribute="bottom" constant="11" id="OLC-Y2-KJj"/>
+                                    <constraint firstItem="MAm-Ts-tCN" firstAttribute="top" secondItem="xhA-5l-W4l" secondAttribute="bottom" id="UCj-s1-da2"/>
+                                    <constraint firstItem="nqU-gN-4Tf" firstAttribute="leading" secondItem="fPO-ZF-vaq" secondAttribute="leadingMargin" id="UE7-cY-IWD"/>
+                                    <constraint firstItem="VPf-jj-iWl" firstAttribute="top" secondItem="xhA-5l-W4l" secondAttribute="bottom" constant="8" id="X45-nh-ubq"/>
+                                    <constraint firstItem="SP0-xp-Y9N" firstAttribute="leading" secondItem="MAm-Ts-tCN" secondAttribute="trailing" id="cxY-9v-GMB"/>
+                                    <constraint firstItem="j7v-Wv-swF" firstAttribute="top" secondItem="fPO-ZF-vaq" secondAttribute="topMargin" id="d9p-J2-JiO"/>
+                                    <constraint firstItem="xhA-5l-W4l" firstAttribute="trailing" secondItem="fPO-ZF-vaq" secondAttribute="trailingMargin" id="gbd-dL-hnq"/>
+                                    <constraint firstItem="xhA-5l-W4l" firstAttribute="leading" secondItem="fPO-ZF-vaq" secondAttribute="leadingMargin" id="kdW-V5-gEX"/>
+                                    <constraint firstItem="nqU-gN-4Tf" firstAttribute="top" secondItem="j7v-Wv-swF" secondAttribute="bottom" id="lUT-4d-yfc"/>
+                                    <constraint firstItem="j7v-Wv-swF" firstAttribute="leading" secondItem="fPO-ZF-vaq" secondAttribute="leadingMargin" id="oS3-CE-Skk"/>
+                                    <constraint firstItem="VPf-jj-iWl" firstAttribute="trailing" secondItem="fPO-ZF-vaq" secondAttribute="trailingMargin" id="pOk-Og-9wL"/>
+                                    <constraint firstItem="j7v-Wv-swF" firstAttribute="trailing" secondItem="fPO-ZF-vaq" secondAttribute="trailingMargin" id="q6N-Pc-YTE"/>
+                                    <constraint firstItem="nqU-gN-4Tf" firstAttribute="trailing" secondItem="fPO-ZF-vaq" secondAttribute="trailingMargin" id="zZN-6m-Poh"/>
+                                </constraints>
+                                <size key="customSize" width="315" height="315"/>
+                                <connections>
+                                    <outlet property="currentPriceLabel" destination="MAm-Ts-tCN" id="ap9-M3-HyI"/>
+                                    <outlet property="descripateLabel" destination="xhA-5l-W4l" id="nzR-0P-KRa"/>
+                                    <outlet property="imageView" destination="j7v-Wv-swF" id="dcD-YA-tu1"/>
+                                    <outlet property="listPriceLabel" destination="SP0-xp-Y9N" id="x3c-RP-J62"/>
+                                    <outlet property="purchseCountLabel" destination="VPf-jj-iWl" id="fMV-39-Ye7"/>
+                                    <outlet property="titleLabel" destination="nqU-gN-4Tf" id="BKF-2c-Qxq"/>
+                                </connections>
+                            </collectionViewCell>
+                        </cells>
+                        <connections>
+                            <outlet property="dataSource" destination="7ab-xm-ALl" id="kKn-yy-LMb"/>
+                            <outlet property="delegate" destination="7ab-xm-ALl" id="HGP-QC-J66"/>
+                        </connections>
+                    </collectionView>
+                    <navigationItem key="navigationItem" id="vrW-0M-UCa"/>
+                </collectionViewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="VZS-jc-IWE" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="1638" y="-557"/>
+        </scene>
+        <!--Navigation Controller-->
+        <scene sceneID="JhX-ay-TOr">
+            <objects>
+                <navigationController automaticallyAdjustsScrollViewInsets="NO" id="Pb1-t4-W5j" sceneMemberID="viewController">
+                    <toolbarItems/>
+                    <navigationBar key="navigationBar" contentMode="scaleToFill" id="TZS-nh-Awl">
+                        <rect key="frame" x="0.0" y="0.0" width="320" height="44"/>
+                        <autoresizingMask key="autoresizingMask"/>
+                    </navigationBar>
+                    <nil name="viewControllers"/>
+                    <connections>
+                        <segue destination="vXZ-lx-hvc" kind="relationship" relationship="rootViewController" id="jDk-Lx-1tY"/>
+                    </connections>
+                </navigationController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="xP6-tR-IhV" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="184" y="-557"/>
         </scene>
     </scenes>
 </document>
